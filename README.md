@@ -136,6 +136,16 @@ sh bin/restart.sh   重启服务
 http://localhost:8080/example/hello?name=tom
 ```
 
+## 构建脚手架
+
+基于本项目构建脚手架命令
+
+```text
+mvn archetype:create-from-project
+```
+
+经过优化调整得到项目：[sba-archetype](https://github.com/Chinaxiang/sba-archetype)
+
 ## 参考
 
 - https://docs.spring.io/spring-boot/docs/current/maven-plugin/
