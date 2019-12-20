@@ -109,15 +109,11 @@ tar -zxvf spring-boot-assembly-${profile}-${version}.tar.gz
 ├─boot
 │      spring-boot-assembly.jar
 ├─config
-│  │  application-*.yml
-│  │  application.yml
-│  │  logback-spring.xml
-│  ├─static
-│  │      index.js
-│  └─templates
-│         index.html
+│     application-*.yml
+│     application.yml
+│     logback-spring.xml
 └─lib
-        **.jar
+      **.jar
 ```
 
 ### window启动
